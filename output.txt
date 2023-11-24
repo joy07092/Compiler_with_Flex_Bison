@@ -1,0 +1,103 @@
+SINGLELINE COMMENT
+Header Found!
+Header Found!
+SINGLELINE COMMENT
+MULTILINE COMMENT
+Function declaration start: joy
+Variable initialized: joy1 is Integer, Value: 0
+Function successfully declared
+Error: Function 'joy' already declared.
+Variable initialized: joy2 is Integer, Value: 0
+Error:Function creation failed
+Function declaration start: func
+Variable initialized: joy3 is Integer, Value: 0
+Function successfully declared
+Main function found!
+SINGLELINE COMMENT
+MULTILINE COMMENT
+Hello this is my compiler project!
+Error: Integer declaration without initialization
+Error: Float declaration without initialization
+Error: String declaration without initialization
+Variable initialized: A is Integer, Value: 10
+Variable "A" already exists.
+Variable "A" already exists.
+Variable "A" already exists.
+Enter Input for integer variable A: 
+Value of A is: 10
+Variable initialized: B is Flaoting Point Number, Value: 1.100000
+Variable initialized: C is String, Value: this isstring
+Enter Input for float variable B: 
+Enter Input for string variable C: 
+Value of C is: this isstring
+SINGLELINE COMMENT
+This is joy
+Variable initialized: ifa is Integer, Value: 1
+Variable initialized: ifb is Integer, Value: 0
+IF BLOCKS return: 1
+IF BLOCKS return: 8
+IF BLOCKS return: 14
+MULTILINE COMMENT
+IF BLOCKS return: 15
+For Loop Block
+For Loop Iteration: 1
+For Loop Iteration: 2
+For Loop Iteration: 3
+For Loop Iteration: 4
+For Loop Block
+For Loop Iteration: 1
+For Loop Iteration: 2
+For Loop Block
+For Loop Iteration: 1
+For Loop Iteration: 2
+For Loop Iteration: 3
+For Loop Iteration: 4
+Variable initialized: whilea is Integer, Value: 1
+Variable initialized: whileb is Integer, Value: 5
+WHILE BLOCK
+WHILE Loop Iteration: 1
+WHILE Loop Iteration: 2
+WHILE Loop Iteration: 3
+WHILE Loop Iteration: 4
+WHILE BLOCK
+WHILE Loop Iteration: 1
+WHILE Loop Iteration: 2
+WHILE Loop Iteration: 3
+WHILE Loop Iteration: 4
+WHILE Loop Iteration: 5
+WHILE Loop Iteration: 6
+WHILE Loop Iteration: 7
+WHILE Loop Iteration: 8
+WHILE BLOCK
+WHILE Loop Iteration: 1
+WHILE Loop Iteration: 2
+WHILE Loop Iteration: 3
+WHILE Loop Iteration: 4
+WHILE BLOCK
+While Loop Condition wasn't satisfied
+WHILE BLOCK
+WHILE Loop Iteration: 1
+For Loop Block
+For Loop Iteration: 1
+For Loop Iteration: 2
+For Loop Iteration: 3
+For Loop Iteration: 4
+For Loop Block
+For Loop Iteration: 1
+For Loop Iteration: 2
+For Loop Iteration: 3
+For Loop Iteration: 4
+WHILE BLOCK
+WHILE Loop Iteration: 1
+Variable initialized: whilec is Integer, Value: 1
+Variable initialized: whilec1 is Integer, Value: 0
+Value of whilec is: 1
+Value of whilec1 is: 0
+Value of whilec is: 0
+Variable initialized: switcha is Integer, Value: 90
+Case Matched.
+Switch statement ended
+Data Types Don't Match.
+Function Not Declared.
+Function Successfully Called.
+Compiled Successfully

@@ -1,0 +1,157 @@
+/>> single line comment
+add_library joy.h$
+add_library joy1.h$
+/>> single line comment
+/* multi
+line
+comment
+*/
+int_j dfn joy(int_j joy1) {
+    $
+}
+int_j dfn joy(int_j joy2) {
+    $
+}
+int_j dfn func(int_j joy3) {
+    $
+}
+
+int_j [mainjoy()] {
+
+/>> single line comment
+/* multi
+line
+comment
+*/
+display("Hello this is my compiler project!")$
+int_j A$
+float_j A$
+string_j A$
+int_j A = 10$
+float_j A = 10.1$
+string_j A = "string"$
+int_j A = 11$
+jin(A)$
+jout(A)$
+float_j B = 1.1$
+string_j C = "this isstring"$
+jin(B, C)$
+jout(C)$
+/>>jout(B, C)
+display("This is joy")$
+int_j ifa = 1, ifb = 0$
+jif(ifa > ifb) {  
+    jif(ifa > ifb) {
+        1
+    }
+    jelse_if(ifa == ifb) {
+        2
+    }
+    jelse {
+        3
+    }
+}
+jelse_if(ifa < ifb) {
+    4
+}
+jelse_if(ifa == ifb) {
+    5
+}
+jelse {
+    6
+}
+
+jif(ifa < ifb) {  
+    7
+}
+jelse_if(ifa > ifb) {
+    jif(ifa > ifb) {
+        8
+    }
+    jelse_if(ifa == ifb) {
+        9
+    }
+    jelse {
+        10
+    }
+}
+jelse {
+    11
+}
+
+jif(ifa < ifb) {  
+    12
+}
+jelse_if(ifa == ifb) {
+    13
+}
+jelse {
+    14
+}
+/*
+jelse_if(ifa == ifb) {
+    $
+}
+jelse {
+    $
+}*/
+jif(ifa != ifb) {
+    15
+}
+
+jfor(i in [start: 1, finish: 10, by: 3]) {
+    $
+}
+
+jfor(i in [start: 1, finish: 10, by: 3]) {
+    jfor(j in [start: 1, finish: 5, by: 3]) {
+        $
+    }
+}
+
+int_j whilea = 1, whileb = 5$
+jwhile(whilea++ <= whileb) {
+    $
+}
+jwhile(whilea++ < 6) {
+    jwhile(whilea++ < 10) {
+        $
+    }
+}
+jwhile(whileb-- > 15) {
+    $
+}
+
+jfor(i in [start: 1, finish: 10, by: 3]) {
+    jwhile(whilea++ < 3) {
+        $
+    }
+}
+
+jwhile(whilea++ < 3) {
+    jfor(i in [start: 1, finish: 10, by: 3]) {
+        $
+    }
+}
+
+int_j whilec = 1$
+int_j whilec1 = whilec--$
+jout(whilec, whilec1)$
+whilec---$
+jout(whilec)$
+
+int_j switcha = 90$
+switch: {
+    case: (switcha != 1) {
+        $
+    }
+    case: (switcha == 1) {
+        $
+    }
+    def: {
+        $
+    }
+}
+calling func(B)$
+calling func(switcha)$
+}
