@@ -9,6 +9,9 @@ The commands that are needed to run the project have to be given in the "Command
 The commands are given below, they are total 4 in numbers:
 
 bison -d name_of_the_bison_file.y
+
 flex name_of_the_flex_file.y
+
 gcc name_of_the_bison_file.tab.c lex.yy.c -o any_name
+
 any_name
